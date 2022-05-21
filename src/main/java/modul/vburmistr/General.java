@@ -16,8 +16,8 @@ public class General extends Human {
         }
     }
     @Override
-    public void canFight() {
-        System.out.println("I can fight, but better to safe safe and create some tactics");
+    public void canFight() throws CantFightException {
+        throw new CantFightException("Im General, i cant fight!");
     }
     @Override
     public void report() {

@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6048d32-dc0c-416b-9955-5091ed0a73ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/Commander.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/Fightable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/General.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/NotEnoughStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/Soldier.java" afterDir="false" />
+    <list default="true" id="d6048d32-dc0c-416b-9955-5091ed0a73ff" name="Changes" comment="Created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/CantFightException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modul/vburmistr/Fightable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/Fightable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modul/vburmistr/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/General.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modul/vburmistr/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modul/vburmistr/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/Home-PC/IdeaProjects/Modul1/src/main/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Home-PC/IdeaProjects/Modul1/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modul.vburmistr.Main" />
@@ -86,6 +79,28 @@
       <option name="presentableId" value="Default" />
       <updated>1653111077696</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created">
+      <created>1653115708338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653115708338</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created">
+      <created>1653115920360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653115920360</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created">
+      <created>1653115926335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653115926335</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,10 +108,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created" />
   </component>
 </project>

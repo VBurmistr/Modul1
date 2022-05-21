@@ -21,7 +21,7 @@ public class Human implements Fightable{
     }
 
     @Override
-    public void canFight() {
+    public void canFight() throws CantFightException {
         System.out.println("No, im civilian");
     }
 
